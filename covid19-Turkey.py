@@ -7,7 +7,6 @@ try:
     soup = BeautifulSoup(r, "html.parser")
     all_datas = soup.find_all("script")
     index = all_datas[18]
-    print(index)
     index = str(index).split('"')
     test_sayisi = index[9]
     hasta_sayisi = index[17]
