@@ -18,7 +18,7 @@ except:
     
 
 while True:
-    islem = input("Günlük korona virüs tablosunu görmek için herhangi bir tuşa bas\n Çıkış için 'q' -> ")
+    islem = input("Günlük korona virüs tablosunu görmek için ENTER\n Çıkış için 'q' -> ")
 
     if islem == "q":
         break
